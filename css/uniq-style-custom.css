@@ -118,7 +118,7 @@ body.uniq-boxed .uniq-body-wrapper{ margin-top: 0px; margin-bottom: 0px; }
 .uniq-navigation{ padding-top: 73px; }.uniq-navigation-top{ top: 73px; } 
 .uniq-navigation .sf-menu > li > a{ padding-bottom: 18px; } 
 .uniq-navigation .uniq-main-menu{ padding-right: 0px; } 
-.uniq-fixed-navigation.uniq-style-slide .uniq-logo-inner img{ max-height: none !important; }.uniq-animate-fixed-navigation.uniq-header-style-plain .uniq-logo-inner, .uniq-animate-fixed-navigation.uniq-header-style-boxed .uniq-logo-inner{ max-width: 70px; } 
+.uniq-fixed-navigation.uniq-style-slide .uniq-logo-inner img{ max-height: none !important; }.uniq-animate-fixed-navigation.uniq-header-style-plain .uniq-logo-inner, .uniq-animate-fixed-navigation.uniq-header-style-boxed .uniq-logo-inner{ max-width: 200px; } 
 .uniq-animate-fixed-navigation.uniq-header-style-plain .uniq-logo, .uniq-animate-fixed-navigation.uniq-header-style-boxed .uniq-logo{ padding-top: 24px; } 
 .uniq-animate-fixed-navigation.uniq-header-style-plain .uniq-logo, .uniq-animate-fixed-navigation.uniq-header-style-boxed .uniq-logo{ padding-bottom: 20px; } 
 .uniq-animate-fixed-navigation.uniq-header-style-plain .uniq-navigation, .uniq-animate-fixed-navigation.uniq-header-style-boxed .uniq-navigation{ padding-top: 24px; }.uniq-animate-fixed-navigation.uniq-header-style-plain .uniq-navigation-top, .uniq-animate-fixed-navigation.uniq-header-style-boxed .uniq-navigation-top{ top: 24px; } 
