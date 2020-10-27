@@ -1708,14 +1708,14 @@ html.mm-opening.uniq-mmenu-right .uniq-mobile-header{ -webkit-transform: transla
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 0px;
-    color: #4a8fe7;
+    color: #5677ff;
     padding: 12px 19px 15px 26px;
     text-transform: none;
     border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-width: 2px 2px 2px 2px;
-    border-color: #4a8fe7
+    border-color: #5677ff
 }
 
 #gdlr-core-button-id-69605:hover {
@@ -1725,7 +1725,7 @@ html.mm-opening.uniq-mmenu-right .uniq-mobile-header{ -webkit-transform: transla
 
 #gdlr-core-button-id-69605 i {
     font-size: 22px;
-    color: #4a8fe7
+    color: #5677ff
 }
 
 #gdlr-core-button-id-69605:hover i {
@@ -1844,7 +1844,7 @@ html.mm-opening.uniq-mmenu-right .uniq-mobile-header{ -webkit-transform: transla
 }
 
 .filter a.active {
-	color: #4a8fe7 !important;
+	color: #5677ff !important;
 }
 
 
@@ -1856,7 +1856,7 @@ html.mm-opening.uniq-mmenu-right .uniq-mobile-header{ -webkit-transform: transla
 	padding: 15px; 
 	width: 100%;
 	display: block; -webkit-appearance: none; 
-	background-color:#4a8fe7; 
+	background-color:#5677ff; 
 	border: 0;
 	color: #fff;
 	font-style: normal !important;
