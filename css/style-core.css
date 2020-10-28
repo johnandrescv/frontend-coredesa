@@ -1088,7 +1088,7 @@ body.search .uniq-not-found-wrap .uniq-not-found-caption {
 .widget_search input.search-field:focus{ outline: none; }
 .widget_search input.search-submit{ position: absolute; right: 0px; top: 0px; bottom: 0px; width: 51px; padding: 0px; opacity: 0; filter: alpha(opacity=0); z-index: 1; }
 
-/* tag cloud */
+/* Etiquetas */
 .tagcloud{ zoom: 1; }
 .tagcloud:after{ content: " "; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 .tagcloud a{ font-size: 11px !important; text-transform: uppercase; font-weight: 600; float: left; letter-spacing: 2px;
