@@ -549,7 +549,7 @@ html.mm-opened body.admin-bar .uniq-header-side-nav{ padding-top: 0px; }
 /* fixed nav bar */
 .uniq-logo-inner{ transition: max-width 200ms; -moz-transition: max-width 200ms; 
 	-o-transition: max-width 200ms; -webkit-transition: max-width 200ms; }
-.uniq-logo-inner img{ width: 100%; /* for ie */ }
+.uniq-logo-inner img{ width: 80%; /* for ie */ }
 .uniq-fixed-nav-logo{ display: none; }
 .uniq-sticky-navigation.uniq-fixed-navigation .uniq-fixed-nav-logo{ display: block; }
 .uniq-sticky-navigation.uniq-fixed-navigation .uniq-orig-logo{ display: none; }
@@ -609,7 +609,7 @@ body.admin-bar .uniq-fixed-navigation.uniq-style-slide{ margin-top: 32px; }
 
 .uniq-page-title-wrap.uniq-style-medium .uniq-page-title{ font-size: 54px; margin-bottom: 0px; }
 .uniq-page-title-wrap.uniq-style-medium .uniq-page-caption{ font-size: 19px; margin-top: 13px; }
-.uniq-page-title-wrap.uniq-style-medium .uniq-page-title-content{ padding-top: 126px; padding-bottom: 116px; }
+.uniq-page-title-wrap.uniq-style-medium .uniq-page-title-content{ padding-top: 30px; padding-bottom: 30px; }
 
 .uniq-page-title-wrap.uniq-style-large .uniq-page-title{ font-size: 75px; margin-bottom: 0px; }
 .uniq-page-title-wrap.uniq-style-large .uniq-page-caption{ font-size: 25px; margin-top: 13px; }
@@ -1708,14 +1708,14 @@ html.mm-opening.uniq-mmenu-right .uniq-mobile-header{ -webkit-transform: transla
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 0px;
-    color: #5677ff;
+    color: #00275e;
     padding: 12px 19px 15px 26px;
     text-transform: none;
     border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-width: 2px 2px 2px 2px;
-    border-color: #5677ff
+    border-color: #00275e
 }
 
 #gdlr-core-button-id-69605:hover {
@@ -1725,7 +1725,7 @@ html.mm-opening.uniq-mmenu-right .uniq-mobile-header{ -webkit-transform: transla
 
 #gdlr-core-button-id-69605 i {
     font-size: 22px;
-    color: #5677ff
+    color: #00275e
 }
 
 #gdlr-core-button-id-69605:hover i {
@@ -1844,7 +1844,7 @@ html.mm-opening.uniq-mmenu-right .uniq-mobile-header{ -webkit-transform: transla
 }
 
 .filter a.active {
-	color: #5677ff !important;
+	color: #00275e !important;
 }
 
 
@@ -1856,7 +1856,7 @@ html.mm-opening.uniq-mmenu-right .uniq-mobile-header{ -webkit-transform: transla
 	padding: 15px; 
 	width: 100%;
 	display: block; -webkit-appearance: none; 
-	background-color:#5677ff; 
+	background-color:#00275e; 
 	border: 0;
 	color: #fff;
 	font-style: normal !important;
