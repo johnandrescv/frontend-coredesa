@@ -85,7 +85,7 @@
 		this.main_menu = menu;
 
 		this.slide_bar = this.main_menu.children('.uniq-navigation-slide-bar');
-		this.slide_bar_width = 20;
+		this.slide_bar_width = 40;
 		this.slide_bar_val = { width: 0, left: 0 };
 		this.slide_bar_offset = 0;
 
