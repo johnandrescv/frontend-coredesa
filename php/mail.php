@@ -379,7 +379,7 @@
           </body>
         </html>';
     $body = $respuesta;
-    var_dump(getenv('contactmail'));
+    echo getenv('contactmail');
     die();
     try {
         $mail->isSMTP();                                        // Set mailer to use SMTP
