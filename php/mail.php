@@ -394,7 +394,7 @@
         $mail->AddAddress('johnandrescv@gmail.com');
         $mail->Subject = utf8_decode('Nuevo Cliente Interesado desde la Página Web');
         $mail->Body = $body;
-        var_dump($getenv['contactmail']);
+        var_dump(getenv['contactmail']);
         die();
         $mail->send();
     } catch (phpmailerException $e) {
