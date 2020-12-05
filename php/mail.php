@@ -379,8 +379,6 @@
           </body>
         </html>';
     $body = $respuesta;
-    echo getenv('contactmail');
-    die();
     try {
         $mail->isSMTP();                                        // Set mailer to use SMTP
         $mail->SMTPDebug = 0;                                 // Enable verbose debug output
