@@ -395,12 +395,13 @@
         $mail->Subject = utf8_decode('Nuevo Cliente Interesado desde la Página Web');
         $mail->Body = $body;
         $mail->send();
+        echo getenv('contactmail');
     } catch (phpmailerException $e) {
-        echo $e->errorMessage(); //Pretty error messages from PHPMailer
+        //echo $e->errorMessage(); //Pretty error messages from PHPMailer
         echo json_encode(array("error" => true));
         return;
     } catch (Exception $e) {
-        echo $e->getMessage(); //Boring error messages from anything else!
+        //echo $e->getMessage(); //Boring error messages from anything else!
         echo json_encode(array("error" => true));
         return;
     }
