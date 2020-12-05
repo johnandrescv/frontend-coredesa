@@ -396,11 +396,11 @@
         $mail->Body = $body;
         $mail->send();
     } catch (phpmailerException $e) {
-        //echo $e->errorMessage(); //Pretty error messages from PHPMailer
+        echo $e->errorMessage(); //Pretty error messages from PHPMailer
         echo json_encode(array("error" => true));
         return;
     } catch (Exception $e) {
-        //echo $e->getMessage(); //Boring error messages from anything else!
+        echo $e->getMessage(); //Boring error messages from anything else!
         echo json_encode(array("error" => true));
         return;
     }
