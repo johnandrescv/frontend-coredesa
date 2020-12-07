@@ -384,14 +384,14 @@
         $mail->SMTPDebug = 0;                                 // Enable verbose debug output
         $mail->Host = 'smtp.gmail.com';                              // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                                // Enable SMTP authentication
-        $mail->Username = getenv('contactmail');                   // SMTP username
-        $mail->Password = 'lacasadelcarreton2020';                             // SMTP password
+        $mail->Username = 'hola@coredesa.com.ec';                   // SMTP username
+        $mail->Password = 'agenciacoredesa201';                             // SMTP password
         $mail->SMTPSecure = 'tls';                              // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                      // TCP port to connect to
         $mail->IsHTML(true);
         $mail->From = 'hola@coredesa.com';
         $mail->FromName = utf8_decode('Coredesa');
-        $mail->AddAddress('johnandrescv@gmail.com');
+        $mail->AddAddress('hola@coredesa.com.ec');
         $mail->Subject = utf8_decode('Nuevo Cliente Interesado desde la Página Web');
         $mail->Body = $body;
         $mail->send();
